@@ -17,7 +17,7 @@ var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_we
 
 var platesPath = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
 
-var colors = ["#1AFF29", "#A5FF2F", "#F2FF2F", "#FFBA2F", "#FF655B", "#FF1100"]
+var colors = ["#07DF57", "#ABFF57", "#F2FF2F", "#FFBA2F", "#FF535F", "#E1000F"]
 function fillColor(feature) {
   var mag = feature.properties.mag;
   if (mag <= 1) {
