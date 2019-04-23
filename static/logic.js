@@ -1,5 +1,5 @@
 function markerSize(feature) {
-  return Math.sqrt(Math.abs(feature.properties.mag)) * 5;
+  return Math.sqrt(Math.abs(feature.properties.mag)) * 4;
 }
 
 var outdoorsMap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
